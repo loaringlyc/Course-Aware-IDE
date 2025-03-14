@@ -1,30 +1,38 @@
-# Course-Aware-IDE
+# Welcome to React Router!
 
-An Electron application with React and TypeScript
+- [React Router Docs](https://reactrouter.com/home)
 
-## Project Setup
+## Development
 
-### Install
+From your terminal:
 
-```bash
-$ npm install
+```sh
+npm run dev
 ```
 
-### Development
+This starts your app in development mode, rebuilding assets on file changes.
 
-```bash
-$ npm run dev
+## Deployment
+
+First, build your app for production:
+
+```sh
+npm run build
 ```
 
-### Build
+Then run the app in production mode:
 
-```bash
-# For windows
-$ npm run build:win
-
-# For macOS
-$ npm run build:mac
-
-# For Linux
-$ npm run build:linux
+```sh
+npm start
 ```
+
+Now you'll need to pick a host to deploy it to.
+
+### DIY
+
+If you're familiar with deploying node applications, the built-in React Router app server is production-ready.
+
+Make sure to deploy the output of `react-router build`
+
+- `build/server`
+- `build/client`
