@@ -1,38 +1,5 @@
-# Welcome to React Router!
+## Next.js App Router Course - Starter
 
-- [React Router Docs](https://reactrouter.com/home)
+This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
 
-## Development
-
-From your terminal:
-
-```sh
-npm run dev
-```
-
-This starts your app in development mode, rebuilding assets on file changes.
-
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying node applications, the built-in React Router app server is production-ready.
-
-Make sure to deploy the output of `react-router build`
-
-- `build/server`
-- `build/client`
+For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
